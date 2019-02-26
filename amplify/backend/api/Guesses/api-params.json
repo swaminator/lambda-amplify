@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/number",
+            "lambdaFunction": "guesses",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "Guesses",
+    "apiName": "Guesses",
+    "functionArns": [
+        {
+            "lambdaFunction": "guesses"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "lambda-function-20190226130130-authRole",
+        "unAuthRoleName": "lambda-function-20190226130130-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "guesses",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

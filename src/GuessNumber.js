@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Amplify, { API } from 'aws-amplify';
-import awsmobile from './aws-exports';
+// Number guessing game app example
 
-Amplify.configure(awsmobile);
+import React from 'react';
+import { API } from 'aws-amplify';
 
 class GuessNumber extends React.Component {
   state = { guess: null };
