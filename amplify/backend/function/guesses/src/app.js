@@ -43,7 +43,7 @@ app.get('/number/*', function(req, res) {
 
 app.post('/number', function(req, res) {
   // Add your code here
-  const correct = 12;
+  const correct = 15;
   let guess = req.body.guess
   let result = ""
 
