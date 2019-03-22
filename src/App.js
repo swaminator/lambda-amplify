@@ -32,7 +32,7 @@ class GuessNumber extends React.Component {
         prompt = `Correct! The number is ${this.refs.guess.value}!`;
         break;
       default:
-        prompt = "Guess a number between 1 and 100.";
+        prompt = "Guess a number between 1 and 1000.";
     }
 
     return (
